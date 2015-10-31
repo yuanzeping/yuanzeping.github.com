@@ -103,7 +103,6 @@ function animate1() {
 
 
 
-
     ectx.fillStyle="#202020";
     ectx.fillRect(0,0,200,200);
 
@@ -124,7 +123,7 @@ function animate1() {
 
     ectx.beginPath();
     ectx.arc(75, 75, 50, 0, j * Math.PI, false);
-    ectx.strokeStyle = "rgb(1,77,150)";
+    ectx.strokeStyle = "rgb(110,77,120)";
     ectx.lineWidth = 20;
     ectx.stroke();
     if(j<1.8){
@@ -157,7 +156,6 @@ function animate2() {
 
     ectx.fillStyle="#202020";
     ectx.fillRect(0,0,200,200);
-
 
     ectx.beginPath();
     ectx.arc(75, 75, 50, 0, 2*Math.PI, false);
@@ -203,6 +201,7 @@ var m =0;
 function animate3() {
     var escanvas = document.getElementById("skill3");
     var ectx = escanvas.getContext("2d");
+
 
 
     ectx.fillStyle="#202020";
