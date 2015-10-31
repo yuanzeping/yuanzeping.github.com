@@ -63,27 +63,15 @@ a{
 
 
 h1{
-    position: absolute;
-    left:5%;
-    top:5%;
-    color:white;
+   font-size: large;
+    font-weight: bold;
     font-family: "Microsoft Yahei";
+    color:rgb(120,50,0);
 }
 
 p{
-    padding-left: 5%;
-    padding-right:5%;
+    font-size: small;
 }
-
-table{
-    padding-left:5%;
-}
-
-h2{
-    padding-left:5%;
-    padding-right:5%;
-}
-
 
 .active{
     background-color: white;
@@ -215,10 +203,11 @@ section{
     margin-top: 50px;
     margin-right: 25px;
     margin-left: 20px;
-    width: 500px;
-    height:600px;
+    padding: 20px 20px;
+    width: 460px;
+    height:560px;
    float: left;
-    background-color: rgb(150,0,0);
+    background-color: white;
 }
 
 #skill{
